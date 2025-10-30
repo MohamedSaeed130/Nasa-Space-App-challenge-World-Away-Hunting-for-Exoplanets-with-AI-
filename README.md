@@ -1,7 +1,7 @@
 # 🌌 World Away: Exoplanet Hunting with AI
 An interactive web application built using Streamlit and TensorFlow to classify exoplanets based on observational data. This tool leverages artificial intelligence to analyze exoplanet features, identify potential candidates, and provides users with an intuitive interface to explore, visualize, and export results.
 
-
+---
 ## Table of Contents
 - [Demo](#demo)
 - [Features](#features)
@@ -49,7 +49,11 @@ Live demo: <link-to-deployed-app>
 - joblib (metadata save/load)
 - requests (data download)
 
-## Repository Structure
+---
+
+## 📂 Project Structure
+
+```
 .
 ├─ app.py                  # main Streamlit app (your provided code)
 ├─ requirements.txt        # required packages
@@ -59,11 +63,12 @@ Live demo: <link-to-deployed-app>
 │  └─ exoplanet_model_meta.pkl
 ├─ data/
 │  └─ sample_upload.csv
-├─ notebooks/
-│  └─ preprocessing.ipynb
 └─ docs/
    └─ demo_screenshot.png
 
+```
+
+---
 
 
 
