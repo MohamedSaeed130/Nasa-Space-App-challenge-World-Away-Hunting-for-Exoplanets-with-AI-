@@ -49,6 +49,7 @@ An interactive web application built using Streamlit and TensorFlow to classify 
 │  └─ TESS_dataset.csv
 └─ docs/
    └─ App screens
+   └─ Media
 
 ```
 ## Quick Start
