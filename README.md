@@ -49,17 +49,15 @@ Live demo: <link-to-deployed-app>
 - joblib (metadata save/load)
 - requests (data download)
 
----
-
-## 📂 Project Structure
+## Repository Structure
 
 ```
 .
-├─ app.py                  # main Streamlit app (your provided code)
+├─ app.py                  # main Streamlit app 
 ├─ requirements.txt        # required packages
 ├─ README.md
 ├─ models/
-│  └─ exoplanet_model.h5   # saved model (after training)
+│  └─ exoplanet_model.h5   # saved model 
 │  └─ exoplanet_model_meta.pkl
 ├─ data/
 │  └─ sample_upload.csv
@@ -68,8 +66,16 @@ Live demo: <link-to-deployed-app>
 
 ```
 
----
+## Quick Start
+### Prerequisites
+- Python 3.8 or above
+- Required libraries: `streamlit`,`numpy`, `pandas`, `plotly`, `tensorflow`, `requests`.
 
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/nasa-spaceapp-exoplanet-hunter.git
+   cd nasa-spaceapp-exoplanet-hunter
 
 
 
