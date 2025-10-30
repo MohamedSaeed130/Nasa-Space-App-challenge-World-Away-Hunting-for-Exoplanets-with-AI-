@@ -1,2 +1,72 @@
-# Nasa-Space-App-challenge-World-Away-Hunting-for-Exoplanets-with-AI-
-Analyze large sets of data collected by these missions to identify exoplanets.
+# 🌌 World Away: Exoplanet Hunting with AI
+An interactive web application built using Streamlit and TensorFlow to classify exoplanets based on observational data. This tool leverages artificial intelligence to analyze exoplanet features, identify potential candidates, and provides users with an intuitive interface to explore, visualize, and export results.
+
+
+## Table of Contents
+- [Demo](#demo)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Repository Structure](#repository-structure)
+- [Quick Start](#quick-start)
+- [Usage & Pages](#usage--pages)
+- [Dataset & Preprocessing](#dataset--preprocessing)
+- [Model & Training Details](#model--training-details)
+- [CSV Format / Batch Prediction](#csv-format--batch-prediction)
+- [Saving & Loading Models](#saving--loading-models)
+- [Performance & Limitations](#performance--limitations)
+- [Roadmap](#roadmap)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgements](#acknowledgements)
+- [Contact](#contact)
+
+ ## Demo
+Run the app locally with `streamlit run app.py` and open the URL printed by Streamlit (typically http://localhost:8501).
+
+Screenshots / GIF (add your images to `docs/` and update paths):
+![app-screenshot](docs/demo_screenshot.png)
+
+Live demo: <link-to-deployed-app>
+
+## Features
+- Download Kepler-like data from NASA (attempted mapping to KOI fields).
+- Generate synthetic KOI-style dataset for demo and testing.
+- Interactive scatter plots and feature visualizations (Plotly).
+- Configurable DNN training (layers, units, dropout, batch-norm, learning rate).
+- Single-sample prediction with probability bars.
+- Batch prediction from CSV, with downloadable results.
+- Model analysis: confusion matrix, classification report, training history, and feature correlations.
+- Save/load model (Keras `.h5`) and metadata (`joblib`).
+
+  ## Tech Stack
+- Python 3.8+
+- Streamlit (UI)
+- TensorFlow / Keras (model)
+- scikit-learn (preprocessing, metrics)
+- pandas, numpy (data)
+- plotly (interactive charts)
+- matplotlib, seaborn (optional)
+- joblib (metadata save/load)
+- requests (data download)
+
+## Repository Structure
+.
+├─ app.py                  # main Streamlit app (your provided code)
+├─ requirements.txt        # required packages
+├─ README.md
+├─ models/
+│  └─ exoplanet_model.h5   # saved model (after training)
+│  └─ exoplanet_model_meta.pkl
+├─ data/
+│  └─ sample_upload.csv
+├─ notebooks/
+│  └─ preprocessing.ipynb
+└─ docs/
+   └─ demo_screenshot.png
+
+
+
+
+
+
+
