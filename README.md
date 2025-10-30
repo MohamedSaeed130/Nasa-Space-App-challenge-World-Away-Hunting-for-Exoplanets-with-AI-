@@ -13,7 +13,7 @@ An interactive web application built using Streamlit and TensorFlow to classify 
 - [References](#references)
 
 ## Demo
-Live demo: <link-to-deployed-app>
+## 📹 [Project Demo](https://drive.google.com/file/d/1Ru-vpFIdBUKzNg9witRMb7ESzi6cZ1bB/view?usp=drive_link)
 
 ## Features
 - Download Kepler-like data from NASA (attempted mapping to KOI fields).
