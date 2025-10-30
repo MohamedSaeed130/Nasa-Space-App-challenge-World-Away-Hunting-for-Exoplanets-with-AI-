@@ -13,11 +13,6 @@ An interactive web application built using Streamlit and TensorFlow to classify 
 - [References](#references)
 
 ## Demo
-Run the app locally with `streamlit run app.py` and open the URL printed by Streamlit (typically http://localhost:8501).
-
-Screenshots / GIF (add your images to `docs/` and update paths):
-![app-screenshot](docs/demo_screenshot.png)
-
 Live demo: <link-to-deployed-app>
 
 ## Features
@@ -64,8 +59,8 @@ Live demo: <link-to-deployed-app>
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/MohamedSaeed130/Nasa-Space-App-challenge-World-Away-Hunting-for-Exoplanets-with-AI-.git
-   cd Nasa-Space-App-challenge-World-Away-Hunting-for-Exoplanets-with-AI-
+   git clone https://github.com/MohamedSaeed130/NasaSpaceAppsChallenge-World-Away-Hunting-for-Exoplanets-with-AI.git
+   cd NasaSpaceAppsChallenge-World-Away-Hunting-for-Exoplanets-with-AI
 2. Install Python dependencies:
    ```bash
    pip install -r requirements.txt
