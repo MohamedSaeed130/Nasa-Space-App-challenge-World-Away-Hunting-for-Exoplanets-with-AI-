@@ -8,17 +8,9 @@ An interactive web application built using Streamlit and TensorFlow to classify 
 - [Tech Stack](#tech-stack)
 - [Repository Structure](#repository-structure)
 - [Quick Start](#quick-start)
-- [Usage & Pages](#usage--pages)
-- [Dataset & Preprocessing](#dataset--preprocessing)
-- [Model & Training Details](#model--training-details)
-- [CSV Format / Batch Prediction](#csv-format--batch-prediction)
-- [Saving & Loading Models](#saving--loading-models)
-- [Performance & Limitations](#performance--limitations)
-- [Roadmap](#roadmap)
-- [Contributing](#contributing)
-- [License](#license)
 - [Acknowledgements](#acknowledgements)
 - [Contact](#contact)
+- [References](#references)
 
  ## Demo
 Run the app locally with `streamlit run app.py` and open the URL printed by Streamlit (typically http://localhost:8501).
@@ -74,10 +66,32 @@ Live demo: <link-to-deployed-app>
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/nasa-spaceapp-exoplanet-hunter.git
-   cd nasa-spaceapp-exoplanet-hunter
+   git clone https://github.com/MohamedSaeed130/Nasa-Space-App-challenge-World-Away-Hunting-for-Exoplanets-with-AI-.git
+   cd Nasa-Space-App-challenge-World-Away-Hunting-for-Exoplanets-with-AI-
+2. Install Python dependencies:
+   ```bash
+   pip install -r requirements.txt
+3. Run the app locally with:
+   ```bash
+   python -m streamlit run App.py
+
+## Acknowledgements
+
+- NASA Kepler & TESS missions and the NASA Exoplanet Archive.
+- NASA Space Apps Challenge organizers.
+- Open-source libraries: TensorFlow, scikit-learn, Streamlit, Plotly, pandas.
+
+  ## Contact
+
+Mohamed Saeed Mohamed — mohamedsaidabusamaha@gmail.com  
+GitHub: https://github.com/MohamedSaeed130  
+LinkedIn: https://linkedin.com/in/mohamedabusamaha7
 
 
+## References
+- NASA Exoplanet Archive: [https://exoplanetarchive.ipac.caltech.edu](https://www.spaceappschallenge.org/2025/challenges/a-world-away-hunting-for-exoplanets-with-ai/)
+
+   
 
 
 
