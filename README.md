@@ -43,16 +43,17 @@ Live demo: <link-to-deployed-app>
 
 ```
 .
-├─ app.py                  # main Streamlit app 
+├─ app.py                  
 ├─ requirements.txt        # required packages
 ├─ README.md
 ├─ models/
-│  └─ exoplanet_model.h5   # saved model 
-│  └─ exoplanet_model_meta.pkl
+│  └─ exoplanet_model.h5 
 ├─ data/
-│  └─ sample_upload.csv
+│  └─ k2_dataset.csv
+│  └─ kepler_dataset.csv
+│  └─ TESS_dataset.csv
 └─ docs/
-   └─ demo_screenshot.png
+   └─ App screens
 
 ```
 ## Quick Start
