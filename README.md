@@ -12,7 +12,7 @@ An interactive web application built using Streamlit and TensorFlow to classify 
 - [Contact](#contact)
 - [References](#references)
 
- ## Demo
+## Demo
 Run the app locally with `streamlit run app.py` and open the URL printed by Streamlit (typically http://localhost:8501).
 
 Screenshots / GIF (add your images to `docs/` and update paths):
@@ -29,8 +29,7 @@ Live demo: <link-to-deployed-app>
 - Batch prediction from CSV, with downloadable results.
 - Model analysis: confusion matrix, classification report, training history, and feature correlations.
 - Save/load model (Keras `.h5`) and metadata (`joblib`).
-
-  ## Tech Stack
+## Tech Stack
 - Python 3.8+
 - Streamlit (UI)
 - TensorFlow / Keras (model)
@@ -40,7 +39,6 @@ Live demo: <link-to-deployed-app>
 - matplotlib, seaborn (optional)
 - joblib (metadata save/load)
 - requests (data download)
-
 ## Repository Structure
 
 ```
@@ -57,7 +55,6 @@ Live demo: <link-to-deployed-app>
    └─ demo_screenshot.png
 
 ```
-
 ## Quick Start
 ### Prerequisites
 - Python 3.8 or above
@@ -81,7 +78,7 @@ Live demo: <link-to-deployed-app>
 - NASA Space Apps Challenge organizers.
 - Open-source libraries: TensorFlow, scikit-learn, Streamlit, Plotly, pandas.
 
-  ## Contact
+## Contact
 
 Mohamed Saeed Mohamed — mohamedsaidabusamaha@gmail.com  
 GitHub: https://github.com/MohamedSaeed130  
